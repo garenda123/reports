@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FOLMULIR BIODATA KELUARGA</title>
+</head>
+<body>
+
+    <table style="width: 100%;" class="header" border="0">  
+        <tr>
+          <td width="18%">&nbsp;</td>
+          <td width="69%">&nbsp;</td>
+          <td width="13%"> <div align="center">
+            <table width="100%"  border="1">
+              <tr>
+                <td bordercolor="#000000"><div align="center"><strong>F-1.02</strong></div></td>
+              </tr>
+            </table>
+          </div></td>
+        </tr>
+      </table>
+      
+      <?php
+          for ($i=1; $i<=2;$i++)
+          {
+      ?>
+      <table style="width: 100%;" class="header" border=0>
+      <tr>
+      <td><p align="center" class="style1">FOLMULIR PENDAFTARAN PERISTIWA KEPENDUDUKAN </p>
+        </td>
+      <tr>
+      </table>
+
+   
+            
+  </table>
+
+<table style="width: 100%;" class="header" border=0>
+    <tr>
+      <td width="3%" bordercolor="#000000">&nbsp;</td>
+      <td width="17%" bordercolor="#000000">I. DATA PEMOHON</td>
+      <td width="2%" bordercolor="#000000"></td>
+      <td width="78%" bordercolor="#000000"></td>
+      <tr>
+      <td bordercolor="#000000">&nbsp;</td>
+     
+      <td height="23" bordercolor="#000000">&nbsp; 1. Nama Lengkap</td>
+      <td bordercolor="#000000">:</td>
+      <td bordercolor="#000000"></td>
+      <tr>
+      <td bordercolor="#000000">&nbsp;</td>
+      <td bordercolor="#000000">&nbsp; 2. Nomor Induk Kependudukan</td>
+      <td bordercolor="#000000">:</td>
+      <td bordercolor="#000000"></td>
+      <tr>
+      <td bordercolor="#000000">&nbsp;</td>
+      <td bordercolor="#000000">&nbsp; 3. Nomor Kartu Keluarga</td>
+      <td bordercolor="#000000">:</td>
+      <td bordercolor="#000000"></td>
+      <tr>
+      <td bordercolor="#000000">&nbsp;</td>
+      <td bordercolor="#000000">&nbsp; 4. Nomor Handphone</td>
+      <td bordercolor="#000000">:</td>
+      <td bordercolor="#000000"></td>
+      <tr>
+      <td bordercolor="#000000">&nbsp;</td>
+      <td bordercolor="#000000">&nbsp; 5. Alamat Email</td>
+      <td bordercolor="#000000">:</td>
+      <td bordercolor="#000000"></td>
+    </table>
+
+    <table style="width: 100%;" class="header" border=0>
+        <tr>
+          <td width="3%" bordercolor="#000000">&nbsp;</td>
+          <td width="17%" bordercolor="#000000">II. JENIS PERMOHONAN</td>
+          <td width="2%" bordercolor="#000000"></td>
+          <td width="78%" bordercolor="#000000"></td>
+          
+        </table>
+   
+    <table width="100%" border="1">
+        <tr>
+          <td width="2%"><div align="center">I</div></td>
+          <td width="20%"><div align="center">KARTU KELUARGA</div></td>
+          <td width="2%"><div align="center">II</div></td>
+          <td width="20%"><div align="center">KTP EL</div></td>
+          <td width="2%"><div align="center">II</div></td>
+          <td width="20%"><div align="center">KARTU IDENTITAS ANAK</div></td>
+          <td width="2%"><div align="center">II</div></td>
+          <td width="20%"><div align="center">PERUBAHAN DATA</div></td>
+        </tr>
+        <?php
+      $nourut =0;
+      
+      while($hasil2=mysql_fetch_array($tampil2))
+      {
+       $nourut++;
+        ?>
+        <tr>
+            <td>A</td>
+            <td>BARU</td>
+            <td>A</td>
+          <td>BARU</td>
+          <td>A</td>
+          <td>BARU</td>
+          <td >A</td>
+          <td>KK</td>
+        </tr>
+         <?php } ?>
+
+         <tr>
+            <td>1.</td>
+            <td>Membentuk Keluarga Baru</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+
+         <tr>
+            <td>2.</td>
+            <td>Pergantian Kepala Keluarga</td>
+            <td>B</td>
+            <td>PINDAH DATANG</td>
+            <td>B</td>
+            <td>HILANG/ RUSAK</td>
+            <td>B</td>
+            <td>KTP-EL</td>
+         </tr>
+
+         <tr>
+            <td>3.</td>
+            <td>Pisah KK</td>
+            <td></td>
+            <td></td>
+            <td>1.</td>
+            <td>HILANG</td>
+            <td></td>
+            <td></td>
+         </tr>
+
+         <tr>
+            <td>4.</td>
+            <td>Pindah Datang</td>
+            <td>C</td>
+            <td>HILANG/ RUSAK</td>
+            <td>2.</td>
+            <td>RUSAK</td>
+            <td>C</td>
+            <td>KIA</td>
+         </tr>
+
+         <tr>
+            <td>5.</td>
+            <td>WNI dari LN Karna Pindah</td>
+            <td>1.</td>
+            <td>HILANG</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Melampirkan :
+                <br>
+                
+                1.Folmulir perubahan data 
+                <br>
+               2.Bukti perubahan data
+            
+            </td>
+         </tr>
+
+         <tr>
+            <td>6.</td>
+            <td>Rentan Adminduk</td>
+            <td>2.</td>
+            <td>RUSAK</td>
+            <td>C</td>
+            <td>Perpanjangan ITAP</td>
+           
+            
+         </tr>
+
+         <tr>
+            <td>B</td>
+            <td>PERUBAHAN DATA</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+           
+         </tr>
+
+         <tr>
+            <td>1.</td>
+            <td>Menumpang dalam KK</td>
+            <td>D</td>
+            <td>Perpanjangan ITAP</td>
+            <td></td>
+            <td></td>
+            
+         </tr>
+
+         <tr>
+            <td>2.</td>
+            <td>Peristiwa Penting</td>
+            <td>E</td>
+            <td>Perubahan Status Kewarganegaraan</td>
+            <td></td>
+            <td></td>
+            
+         </tr>
+
+         <tr>
+            <td>3.</td>
+            <td>Perubahan element data yang tercantum dalam KK</td>
+            <td>F</td>
+            <td>Luar Domisili</td>
+            <td></td>
+            <td></td>
+           
+         </tr>
+
+         <tr>
+            <td>C</td>
+            <td>HILANG/ RUSAK</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+           
+         </tr>
+
+         <tr>
+            <td>1.</td>
+            <td>Hilang</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+           
+         </tr>
+
+         <tr>
+            <td>2.</td>
+            <td>Rusak</td>
+            <td>G</td>
+            <td>Transmigrasi</td>
+            <td></td>
+            <td></td>
+            
+         </tr>
+
+         
+      </table>
+
+      <table style="width: 100%;" class="header" border=0>
+        <tr>
+          <td width="3%" bordercolor="#000000">&nbsp;</td>
+          <td width="30%" bordercolor="#000000">III. PERSYARATAN YANG DILAMPIRKAN</td>
+          <td width="2%" bordercolor="#000000"></td>
+          <td width="78%" bordercolor="#000000"></td>
+          <tr>
+            <td bordercolor="#000000">&nbsp;</td>
+            <td bordercolor="#000000">&nbsp; 1. KK Lama/KK Rusak</td>
+           
+            <td bordercolor="#000000">:</td>
+            <td bordercolor="#000000">9. Surat Keterangan/ Bukti Perubahan Peristiwa Kependudukan dan Peristiwa penting</td>
+            <tr>
+            <td bordercolor="#000000">&nbsp;</td>
+            <td bordercolor="#000000">&nbsp; 2. Buku Nikah/ Kutipan Akta Perkawinan</td>
+            <td bordercolor="#000000">:</td>
+            <td bordercolor="#000000">10. STPJM Perkawinan/ Perceraian belum tercatat</td>
+            <tr>
+            <td bordercolor="#000000">&nbsp;</td>
+            <td bordercolor="#000000">&nbsp; 3. Kutipan Akta Perceraian</td>
+            <td bordercolor="#000000">:</td>
+            <td bordercolor="#000000">11. Akta Kematian</td>
+            <tr>
+            <td bordercolor="#000000">&nbsp;</td>
+            <td bordercolor="#000000">&nbsp; 4. Surat Keterangan Pindah</td>
+            <td bordercolor="#000000">:</td>
+            <td bordercolor="#000000">12. Surat Penyebab terjadinya hilang/ rusak</td>
+            <tr>
+            <td bordercolor="#000000">&nbsp;</td>
+            <td bordercolor="#000000">&nbsp; 5. Surat Keterangan Pindah Luar Negeri</td>
+            <td bordercolor="#000000">:</td>
+            <td bordercolor="#000000">13. Surat keterangan pindah dari perwakilan RI</td>
+            <tr>
+            <td bordercolor="#000000">&nbsp;</td>
+            <td bordercolor="#000000">&nbsp; 6. KTP-EI Rusak</td>
+            <td bordercolor="#000000">:</td>
+            <td bordercolor="#000000">14. Surat Pernyataan Bersedia Menerima Sebagai Anggota Keluarga</td>
+            <tr>
+            <td bordercolor="#000000">&nbsp;</td>
+            <td bordercolor="#000000">&nbsp; 7. Dokumen Perjalanan</td>
+            <td bordercolor="#000000">:</td>
+            <td bordercolor="#000000">15. Surat kuasa pengasuhan dari orang tua/ wali</td>
+            <tr>
+            <td bordercolor="#000000">&nbsp;</td>
+            <td bordercolor="#000000">&nbsp; 8. Surat Keterangan Hilang Dari Kepolisian</td>
+            <td bordercolor="#000000">:</td>
+            <td bordercolor="#000000">16. Kartu Izin Tetap Tinggal</td>
+        </table>
+
+        <table width="100%"  border="0">
+            
+            <tr>
+              <td width="50%" bordercolor="#000000"><p align="center">Petugas</p>
+                <p align="center">&nbsp;</p>
+                <p align="center"><u>(...........................................)</u> </p></td>
+              <td width="50%" bordercolor="#000000"><p align="center"><?php echo $hasil['desa']; ?>BANYUMAS, <?php echo $hasil['tanggal_cetak']; ?><br>
+                Pemohon</p>
+                <p align="center">&nbsp;</p>
+                <p align="center"><u>(...........................................)</u></p>
+                <p align="center"><br>
+                </p></td>
+            </tr>
+          </table>
+
+</body>
+</html>
